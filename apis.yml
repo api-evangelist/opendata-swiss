@@ -41,6 +41,10 @@ apis:
       - type: x-api-endpoint
         url: https://opendata.swiss/api/3/action/status_show
 common:
+  - type: VulnerabilityDisclosure
+    url: security/opendata-swiss-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/opendata-swiss-domain-security.yml
   - type: Website
     url: https://opendata.swiss
   - type: Documentation
